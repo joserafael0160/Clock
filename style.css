@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.container {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.time {  
+  background-color: red; 
+  width: 80%;  
+  padding: 20px; 
+  font-size: 5em;    
+}
