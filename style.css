@@ -9,11 +9,15 @@
   display: flex;
   justify-content: center;
   align-items: center; 
-}
-
+  background: rgb(45,43,79); 
+  background: linear-gradient(90deg, rgba(45,43,79,1) 0%, rgba(117,43,117,1) 100%);
+} 
 .time {  
-  background-color: red; 
-  width: 80%;  
+  background-color: rgba(0,0,0,0.5);   
+  border-radius: 7px;  
+  color: white; 
+  width: 60%;   
   padding: 20px; 
-  font-size: 5em;    
+  font-size: 5em;  
+  text-align: center;   
 }
