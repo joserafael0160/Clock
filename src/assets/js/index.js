@@ -1,7 +1,7 @@
 "use strict";
-const time = document.querySelector(".time");
+import { convert } from "./functions.js";
 
-const convert = n => n.toString().padStart(2,"0");
+const time = document.querySelector(".time");
 
 function getCurrentTime() {
   const date = new Date;
